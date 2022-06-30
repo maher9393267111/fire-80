@@ -5,7 +5,7 @@ const Login = () => {
         <div>
            
             <h2> hello from </h2>
-            <p>pepe pepe</p>
+            <p>maher  maher</p>
         </div>
     );
 }
