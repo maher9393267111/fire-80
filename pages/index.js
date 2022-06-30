@@ -13,7 +13,7 @@ export default function Home() {
 
 <div>
 
-  <h1>Home page1</h1>
+  <h1>framer</h1>
 </div>
 
 

@@ -4,8 +4,7 @@ const Login = () => {
     return (
         <div>
            
-            <h2> hello from </h2>
-            <p>maher  maher</p>
+           
         </div>
     );
 }
