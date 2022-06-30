@@ -5,12 +5,12 @@ const Layout = ({children}) => {
     return (
         <div>
 
-<div className=' sm:block  ipad:hidden'>
+<div className=' xs:block  ipad:hidden'>
 
             <Moblienav />
 </div>
 
-<div className=' sm:hidden  ipad:block'>
+<div className=' xs:hidden  ipad:block'>
 
             <Desknav/>
 </div>
