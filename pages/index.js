@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import styles from '../styles/Home.module.css'
 import { useScroll } from "../maher/useScroll";
 import { headerAnimation, imageAnimation,fromDown,secondAnimation  } from "../maher/Animations";
-import Sec2 from '../components/sec2'
+
 export default function Home() {
   const [element, controls] = useScroll();
 
@@ -19,34 +19,9 @@ export default function Home() {
 
 <div>
 
-  <h1>framer</h1>
+  <h1>Home page</h1>
 </div>
 
-<div className=' h-[140vh]'>
-section One
-
-<div className="main-container" ref={element}>
-
-<motion.div
-          className="content"
-          variants={headerAnimation}
-          animate={controls}
-          transition={{ delay: 0.2, type: "tween" }}
-        >
-          <h1>
-            We Provide Solutions to Help You to Build or Grow Your Buisness!
-          </h1>
-          <p className='w-1/3'>
-            A professional web and mobile app development agency with over 100+
-            web and app developed. We provide a high- quality service in web and
-            mobile app development as well as in design.
-          </p>
-
-          </motion.div>
-
-
-
-  </div>
 
 
 
@@ -54,12 +29,12 @@ section One
 
 
 
-</div>
 
-<hr/>
+
+
  
 
-<Sec2/>
+
 
 
 
