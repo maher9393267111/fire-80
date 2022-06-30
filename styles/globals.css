@@ -28,3 +28,16 @@ a {
  ::-webkit-scrollbar {
   display: none;
 } 
+.h1{
+
+ 
+  font-weight: 700;
+  line-height: 68px;
+  margin-bottom: 2.5rem;
+  margin-top: 0;
+
+  font-size: 63px !important;
+ 
+}
+
+

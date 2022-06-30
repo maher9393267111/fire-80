@@ -4,7 +4,8 @@ import { motion } from "framer-motion";
 import styles from '../styles/Home.module.css'
 import { useScroll } from "../maher/useScroll";
 import { headerAnimation, imageAnimation,fromDown,secondAnimation  } from "../maher/Animations";
-
+import Section1 from "../components/sections/Section1";
+import Section2 from "../components/sections/section2";
 export default function Home() {
   const [element, controls] = useScroll();
 
@@ -17,17 +18,36 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+
+
+
+<div className=' Home-content'>
+
+
+{/* ----Section 1---- */}
 <div>
 
-  <h1>Home page</h1>
+  <Section1 />
+  
+</div>
+
+
+
+<div>
+
+  <Section2 />
+  
 </div>
 
 
 
 
-<div className=' h-[200vh]'>
-hello home
+
+
+
 </div>
+
+
 
 
 

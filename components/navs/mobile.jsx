@@ -8,6 +8,15 @@ const Mobile = () => {
     // when side ba fixed  stop page scroll
     const body = document.querySelector("body");
 
+//setOpen(true);
+
+if (window.innerWidth > 799) {
+  setOpen(true);
+  console.log("📌📌📌79999");
+}
+
+
+
     // resize event
     window.addEventListener("resize", () => {
       if (window.innerWidth > 799) {
@@ -25,7 +34,7 @@ const Mobile = () => {
       const content = document.querySelector(".content");
       content.style.display = "block";
     }
-  }, [isOpen, window.innerWidth]);
+  }, [isOpen]);
 
   return (
     <div>
@@ -44,7 +53,7 @@ const Mobile = () => {
 
         <div>
           <div>
-            <div className=" absolute right-[53px mr-4]">
+            <div className=" absolute right-[53px] mr-4">
               <Hamburger
                 color="#4FD1C5"
                 size={32}
