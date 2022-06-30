@@ -18,7 +18,7 @@ const Layout = ({children}) => {
 
 {/* ---contetnt---- */}
 
-<div>
+<div className=' content'>
     {children}
 </div>
 

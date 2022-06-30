@@ -5,6 +5,32 @@ const Mobile = () => {
 
     const [isOpen, setOpen] = useState(false)
 
+    useEffect(() => {
+        
+// when side ba fixed  stop page scroll
+        const body = document.querySelector('body')
+        if(!isOpen){
+         
+            // hide all page content
+            const content = document.querySelector('.content')
+            content.style.display = 'none'
+        }
+        else{
+            // show all page content
+            const content = document.querySelector('.content')
+            content.style.display = 'block'
+        }
+
+
+    
+        
+      }, [isOpen]);
+
+
+
+
+
+
     return (
         <div>
             
@@ -46,11 +72,11 @@ const Mobile = () => {
 
 {/* ----fixed-- */}
 
-<div className={ `${isOpen ? '' : ''}  opacity-1 right-0 bottom-0 top-[100px]   `}>
+<div className={ `${isOpen ? 'translate-x-[100%]' : 'translate-0'}  transition-all duration-500 opacity-1 left-0 right-0 bottom-0 top-[80px]  fixed bg-green-400 `}>
 
 
 
-
+hello
 
 
 </div>
