@@ -46,7 +46,7 @@ const Mobile = () => {
 
 {/* ----fixed-- */}
 
-<div className={ `${isOpen ? 'right-0 opacity-1' : 'right-[-1000px]'}  transition-all   duration-1000 fixed  bg-slate-400  min-h-[300px] w-full top-[100px]    `}>
+<div className={ `${isOpen ? '' : ''}  opacity-1 right-0 bottom-0 top-[100px]   `}>
 
 
 
