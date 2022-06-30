@@ -9,6 +9,14 @@ const Mobile = () => {
         
 // when side ba fixed  stop page scroll
         const body = document.querySelector('body')
+
+
+// if window width is bigger than 768px set open to false
+        if(window.innerWidth > 799){
+            setOpen(false)
+        }
+
+
         if(!isOpen){
          
             // hide all page content
@@ -52,7 +60,7 @@ const Mobile = () => {
 <div>
     <div>
 
-<div className=' absolute right-[10px mr-4]'>
+<div className=' absolute right-[53px mr-4]'>
 
 
             <Hamburger
