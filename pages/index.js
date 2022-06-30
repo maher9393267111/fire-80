@@ -10,6 +10,8 @@ import {
   fromDown,
   secondAnimation,
 } from "../m/anim";
+import Tabs from "../components/sections/tabSection";
+import SectionFive from "../components/sections/sectionFive";
 import SectionOne from "../components/sections/SectionOne";
 import SectionTwo from "../components/sections/sectionTwo";
 import SectionFour from "../components/sections/sectionFour";
@@ -24,7 +26,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className=" Home-content">
+      <div className=" Home-content pb-24">
         {/* ----Section 1---- */}
         <div>
           <SectionOne />
@@ -41,6 +43,16 @@ export default function Home() {
         <div>
           <SectionFour />
         </div>
+
+
+        <div>
+          <SectionFive />
+        </div>
+
+<div>
+          <Tabs />
+</div>
+
 
 
 
