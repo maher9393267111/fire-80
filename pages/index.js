@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-import Section3 from "../components/sections/section3";
+import SectionThree from "../components/sections/sectionThree";
 import { motion } from "framer-motion";
 import styles from "../styles/Home.module.css";
 import { useScroll } from "../m/useScroll";
@@ -10,9 +10,9 @@ import {
   fromDown,
   secondAnimation,
 } from "../m/anim";
-import Section1 from "../components/sections/Section1";
-import Section2 from "../components/sections/section2";
-import Section4 from "../components/sections/section4";
+import SectionOne from "../components/sections/SectionOne";
+import SectionTwo from "../components/sections/sectionTwo";
+import SectionFour from "../components/sections/sectionFour";
 export default function Home() {
   const [element, controls] = useScroll();
 
@@ -27,19 +27,19 @@ export default function Home() {
       <div className=" Home-content">
         {/* ----Section 1---- */}
         <div>
-          <Section1 />
+          <SectionOne />
         </div>
 
         <div>
-          <Section2 />
+          <SectionTwo />
         </div>
 
         <div>
-          <Section3 />
+          <SectionThree />
         </div>
 
         <div>
-          <Section4 />
+          <SectionFour />
         </div>
 
 
