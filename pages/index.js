@@ -1,14 +1,20 @@
-import Head from 'next/head'
-import Image from 'next/image'
+import Head from "next/head";
+import Image from "next/image";
+import Section3 from "../components/sections/section3";
 import { motion } from "framer-motion";
-import styles from '../styles/Home.module.css'
+import styles from "../styles/Home.module.css";
 import { useScroll } from "../maher/useScroll";
-import { headerAnimation, imageAnimation,fromDown,secondAnimation  } from "../maher/Animations";
+import {
+  headerAnimation,
+  imageAnimation,
+  fromDown,
+  secondAnimation,
+} from "../maher/Animations";
 import Section1 from "../components/sections/Section1";
 import Section2 from "../components/sections/section2";
+import Section4 from "../components/sections/section4";
 export default function Home() {
   const [element, controls] = useScroll();
-
 
   return (
     <div className={styles.container}>
@@ -18,50 +24,27 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <div className=" Home-content">
+        {/* ----Section 1---- */}
+        <div>
+          <Section1 />
+        </div>
+
+        <div>
+          <Section2 />
+        </div>
+
+        <div>
+          <Section3 />
+        </div>
+
+        <div>
+          <Section4 />
+        </div>
 
 
 
-<div className=' Home-content'>
-
-
-{/* ----Section 1---- */}
-<div>
-
-  <Section1 />
-  
-</div>
-
-
-
-<div>
-
-  <Section2 />
-  
-</div>
-
-
-
-
-
-
-
-</div>
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-     
+      </div>
     </div>
-  )
+  );
 }

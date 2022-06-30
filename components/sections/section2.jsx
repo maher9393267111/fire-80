@@ -9,7 +9,7 @@ const Section2 = () => {
     const [element, controls] = useScroll();
 
     return (
-       <div className='h-[100vh]'  ref={element}>
+       <div className=''  ref={element}> 
        
 
        <motion.div
@@ -20,11 +20,13 @@ const Section2 = () => {
         >
 
 
-<p>
-            A professional web and mobile app development agency with over 100+
-            web and app developed. We provide a high- quality service in web and
-            mobile app development as well as in design.
-          </p>
+<div className=' lg:pb-20'>
+
+
+  <img className='w-[900px] h-[555px] mx-auto object-contain' src="https://www.jsmastery.pro/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FNFT.91383e8a.png&w=3840&q=75" alt="" />
+</div>
+
+
 
 
 

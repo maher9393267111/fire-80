@@ -41,3 +41,45 @@ a {
 }
 
 
+
+
+.main-title{
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+
+
+.btn1{
+  background: linear-gradient(90deg,#4ca5ff 2.34%,#b673f8 100.78%);
+}
+
+
+.btn2{
+background-color: #B7E5DD;
+}
+
+
+
+
+
+
+.text1 {
+    font-size: 27px;
+    background: -webkit-linear-gradient(90deg,#4ca5ff 2.34%,#b673f8 100.78%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+  }
+
+
+
+
+
+/* 
+.hea {
+  @apply h-screen;
+  
+} */

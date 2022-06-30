@@ -82,3 +82,10 @@ export const headerAnimation = {
     show: { y: 1, opacity: 1 },
   };
   
+
+
+
+  export const RightAnimation = {
+    hidden: { y: -800, opacity: 0 },
+    show: { y: 0, opacity: 1 },
+  };
