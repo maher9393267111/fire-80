@@ -1,8 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-import { useScroll } from "../../maher/useScroll";
-import { videoAnimation,RightAnimation   } from "../../maher/Animations";
+import { useScroll } from "../../m/useScroll";
+import { videoAnimation,RightAnimation   } from "../../m/anim";
 
 const Section3 = () => {
 

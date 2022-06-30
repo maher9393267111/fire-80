@@ -3,13 +3,13 @@ import Image from "next/image";
 import Section3 from "../components/sections/section3";
 import { motion } from "framer-motion";
 import styles from "../styles/Home.module.css";
-import { useScroll } from "../maher/useScroll";
+import { useScroll } from "../m/useScroll";
 import {
   headerAnimation,
   imageAnimation,
   fromDown,
   secondAnimation,
-} from "../maher/Animations";
+} from "../m/anim";
 import Section1 from "../components/sections/Section1";
 import Section2 from "../components/sections/section2";
 import Section4 from "../components/sections/section4";

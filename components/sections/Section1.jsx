@@ -1,8 +1,8 @@
 import React from 'react';
 import { motion } from "framer-motion";
 
-import { useScroll } from "../../maher/useScroll";
-import { headerAnimation, imageAnimation,fromDown,secondAnimation  } from "../../maher/Animations";
+import { useScroll } from "../../m/useScroll";
+import { headerAnimation, imageAnimation,fromDown,secondAnimation  } from "../../m/anim";
 
 const Section1 = () => {
     const [element, controls] = useScroll();
