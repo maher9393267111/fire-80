@@ -20,7 +20,7 @@ const Section4 = () => {
 
 <div>
 
-    <h1 className="xs:text-[28px] ml-6 mr-6  font-bold text-center">See what's included in the <span className="text1">NFT Marketplace</span> </h1>
+    <h1 className="xs:text-[28px] ml-6 mr-6  font-bold text-center">See whats included in the <span className="text1">NFT Marketplace</span> </h1>
 </div>
 
 
