@@ -78,7 +78,7 @@ export const headerAnimation = {
 
 
   export const secondAnimation = {
-    hidden: { y: -100, opacity: 0 },
+    hidden: { y: -300, opacity: 0 },
     show: { y: 1, opacity: 1 },
   };
   

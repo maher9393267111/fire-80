@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import styles from '../styles/Home.module.css'
 import { useScroll } from "../maher/useScroll";
 import { headerAnimation, imageAnimation,fromDown,secondAnimation  } from "../maher/Animations";
+import Sec2 from '../components/sec2'
 export default function Home() {
   const [element, controls] = useScroll();
 
@@ -49,32 +50,16 @@ section One
 
 
 
+
+
+
+
 </div>
 
 <hr/>
-<div className=' h-[140vh] ' ref={element}>
-section Two
+ 
 
-
-
-<motion.div
-          className="content"
-          variants={secondAnimation}
-        
-            
-          animate={controls}
-          transition={{ delay: 0.2, type: "tween" }}
-        >
-          <h1>
-            We Provide Solutions to Help You to Build or Grow Your Buisness!
-          </h1>
-        
-
-          </motion.div>
-
-
-</div>
-
+<Sec2/>
 
 
 
