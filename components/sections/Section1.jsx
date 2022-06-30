@@ -9,8 +9,9 @@ const Section1 = () => {
 
 
 
+
     return (
-     <div className='   ' ref={element} >
+     <div className='  hello ' ref={element} >
        
 <div>
 
