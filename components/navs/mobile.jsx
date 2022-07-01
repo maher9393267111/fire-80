@@ -12,7 +12,7 @@ const Mobile = () => {
 //setOpen(true);
 
 if (window.innerWidth > 799) {
-  setOpen(true);
+  setOpen(false);  // true ✔
   console.log("📌📌📌79999");
 }
 
@@ -21,12 +21,12 @@ if (window.innerWidth > 799) {
     // resize event
     window.addEventListener("resize", () => {
       if (window.innerWidth > 799) {
-        setOpen(true);
+        setOpen(false);  // true ✔
         console.log("📌📌📌79999");
       }
     });
 
-    if (!isOpen) {
+    if (isOpen) {    // !isOpen ✔
       // hide all page content
       const content = document.querySelector(".content");
       content.style.display = "none";
@@ -73,7 +73,7 @@ if (window.innerWidth > 799) {
 
           <div
             className={`${
-              isOpen ? "translate-x-[100%]" : "translate-0"
+              !isOpen ? "translate-x-[100%]" : "translate-0"
             }  transition-all duration-500 opacity-1 left-0 right-0 bottom-0 top-[80px]  fixed  bg-white  shadow-xl  `}
           >
             {/* ----sidebar Content---- */}
