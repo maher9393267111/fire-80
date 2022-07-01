@@ -10,11 +10,17 @@ import {
   fromDown,
   secondAnimation,
 } from "../m/anim";
+import BreandMarque from "../components/sections/BreandMarque";
+import SectionSix from "../components/sections/sectionSix";
+import PrgressSection from "../components/sections/progress";
 import Tabs from "../components/sections/tabSection";
 import SectionFive from "../components/sections/sectionFive";
 import SectionOne from "../components/sections/SectionOne";
 import SectionTwo from "../components/sections/sectionTwo";
 import SectionFour from "../components/sections/sectionFour";
+import SectionNine from "../components/sections/sectionNine";
+import CommentSection from "../components/sections/COmmentSection";
+import Bonus from "../components/sections/Bonus";
 export default function Home() {
   const [element, controls] = useScroll();
 
@@ -51,6 +57,38 @@ export default function Home() {
 
 <div>
           <Tabs />
+</div>
+
+
+ <div>
+          <PrgressSection />
+ </div>
+
+
+<div>
+          <SectionSix />
+</div>
+
+
+<div>
+          <BreandMarque />
+</div>
+
+
+<div>
+  <SectionNine/>
+</div>
+
+
+<div>
+  <CommentSection/>
+</div>
+
+
+<div>
+
+<Bonus/>
+
 </div>
 
 

@@ -6,7 +6,7 @@ const Section5 = () => {
     <div className="pb-22  lg:my-22">
       <motion.div
         className=""
-        whileInView={{ y: [180, 0], opacity: [0, 1] }}
+        whileInView={{ y: [-180, 0], opacity: [0, 1] }}
         transition={{ duration: 1.5 }}
       >
         <div>
@@ -47,14 +47,16 @@ const Section5 = () => {
 
     <div >
 
-
-{list.map((item, index) => (
-
-<motion.div
+    <motion.div
         className=""
         whileInView={{ y: [180, 0], opacity: [0, 1] }}
         transition={{ duration: 0.5 }}
       >
+
+
+{list.map((item, index) => (
+
+
 
 
 <div key={item.index}  className="my-8">
@@ -76,10 +78,11 @@ const Section5 = () => {
 
 
 </div>
-</motion.div>
+
 
 
 ))}
+</motion.div>
 
 
 

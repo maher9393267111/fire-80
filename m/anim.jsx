@@ -89,3 +89,15 @@ export const headerAnimation = {
     hidden: { y: -800, opacity: 0 },
     show: { y: 0, opacity: 1 },
   };
+
+
+
+  export const xAnimation = {
+    hidden: { x: -177, opacity: 0 },
+    show: { x: 0, opacity: 1 },
+  };
+
+  export const x_Animation = {
+    hidden: { x: 177, opacity: 0 },
+    show: { x: 0, opacity: 1 },
+  };

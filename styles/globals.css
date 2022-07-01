@@ -95,3 +95,38 @@ background-color: #B7E5DD;
 
 
 
+
+  .star{
+
+width: 10px;
+height: 10px;
+
+  }
+
+  .star-b{
+
+width: 20px;
+height: 20px;
+
+  }
+
+
+  .bt{
+
+  background-color: #b673f8;
+  }
+
+
+  .card-items > div {
+
+margin-top: 26px;
+
+
+  }
+
+
+  .card-items{
+
+padding-bottom: 25px;
+
+  }
